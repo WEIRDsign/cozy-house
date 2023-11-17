@@ -1,0 +1,256 @@
+.header_main{
+    width: 1280px;
+    /* height: 908px; */
+    background:radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.novbar{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cozy{
+    width: 184px;
+    height: 60px;
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+.house{
+   color: var(--house);
+   font-size: 32px;
+   font-family: 400;
+}
+.shelter{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+.buttons{
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+.main{
+    width: 95%;
+    margin: 60px 40px 0px 40px;
+}
+.main_1{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.people{
+    width: 460px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.need{
+    font-size: 44px;
+    font-weight: 400;
+    width: 310px;
+    height: 114px;
+}
+.chance{
+    color: var(--gray);
+}
+.puppy{
+    background: url(./assets/photos/puppy.png);
+    width: 700px;
+    height: 728px;
+}
+.about{
+    width: 1280px;
+}
+.about_content{
+    width: 1200px;
+    height: 408px;
+    display: flex;
+    gap: 120px;
+    padding: 0px 175px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.cozy_house{
+    color: var(--textcolor);
+    width: 370px;
+    height: 90px;
+    letter-spacing: 2.1px;
+}
+.dogsandcats{
+    color: var(--textcolor);
+    width: 430px;
+    height: 96px;
+}
+.feeding{
+    color: var(--textcolor);
+    width: 430px;
+    height: 144px;
+}
+.section_looking_house{
+    background: var(--bggray);
+    width: 1280px;
+}
+.looking_house{
+    width: 1200px;
+    height: 697px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.our_friends{
+    color: var(--textcolor);
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    border-radius: 9px;
+}
+.learn_more{
+    display: flex;
+    gap: 90px;
+    width: 1200px;
+    height: 435px;
+    justify-content: space-between;
+}
+.cat_dog_arrow{
+    display: flex;
+    gap: 53px;
+    align-items: center;
+}
+.section_help{
+    width: 1280px;
+}
+.help{
+    width: 1200px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.can_you{
+    width: 308px;
+    height: 90px;
+    color: var(--textcolor);
+    text-align: center;
+}
+.helping_shelter{
+    display: flex;
+    gap: 120px;
+    width: 1026px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.helping_shelter_2{
+    display: flex;
+    gap: 120px;
+    width: 1026px;
+    height: 281px;
+    justify-content: center;
+    cursor: pointer;
+}
+.section_donation{
+    width: 1280px;
+    background: var(--bggray);
+    padding: 80px 182px 100px 183px;
+}
+.donation{
+    width: 915px;
+    height: 282px;
+    display: flex;
+    gap: 30px;
+}
+.make_donation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.donation_text{
+    width: 270px;
+    height: 900px;
+    letter-spacing: 2.1px;
+}
+.bank_account{
+    font-size: 15px;
+    font-weight: 400;
+    height: 17px;
+    height: 307px;
+}
+.example_card{
+    display: flex;
+    gap: 15px;
+    width: 325px;
+    height: 43px;
+    background: var(--house);
+    border-radius: 9px;
+    padding:10px 15px;
+}
+.legal_information{
+    color: rgba(178, 178, 178, 1);
+    width: 380px;
+    height: 72px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+.section_footer{
+    width: 1280px;
+    background:radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+    padding: 40px 40px 0 40px;
+}
+.footer{
+    display: flex;
+    gap: 160px;
+    width: 1200px;
+    height: 310px;
+}
+.questions{
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    gap: 44px;
+}
+.for_suggestions{
+    width: 278px;
+    height: 90px;
+}
+.footer_2{
+    display: flex;
+    gap: 20px;
+    width: 302px;
+    height: 46px;
+    color: var(--house);
+    cursor: pointer;
+}
+.visit{
+    display: flex;
+    gap:34px ;
+    width: 302px;
+    height: 234px;
+    flex-direction: column;
+}
+.footer_dog{
+    background:url(./assets/photos/footer-puppy.png) ;
+    width: 300px;
+    height: 310px;
+    padding-bottom: 10px;
+}
