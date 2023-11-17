@@ -1,6 +1,5 @@
 .header_main{
     width: 1280px;
-    /* height: 908px; */
     background:radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
     display: flex;
     flex-direction: column;
@@ -35,7 +34,7 @@ body{
     font-size: 13px;
     letter-spacing: 0.8px;
 }
-.buttons{
+.menu{
     display: flex;
     gap: 35px;
     cursor: pointer;
@@ -70,10 +69,10 @@ body{
     width: 700px;
     height: 728px;
 }
-.about{
+.section_about{
     width: 1280px;
 }
-.about_content{
+.about{
     width: 1200px;
     height: 408px;
     display: flex;
@@ -254,3 +253,23 @@ body{
     height: 310px;
     padding-bottom: 10px;
 }
+/* @media (min-height:576px) {
+   .novbar{
+    width: 540px;
+   }
+}
+@media (min-height:768px) {
+    .novbar{
+        width: 730px;
+       }
+}
+@media (min-height:992px) {
+    .novbar{
+        width: 940px;
+       } 
+}
+@media (min-height:1200px) {
+    .novbar{
+        width: 1160px;
+       }
+} */
